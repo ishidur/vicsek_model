@@ -35,7 +35,7 @@ for i in range(0,N):
 
 # Run until time ends
 while t < T:
-	print t
+	print(t)
 	
 	# save coordinates & angle vectors
 	output = np.concatenate((particles,rand_vecs),axis=1)

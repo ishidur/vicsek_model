@@ -64,7 +64,7 @@ eta = float(sys.argv[1])
 
 for file in glob.glob("simulation1/*.txt"):
 	outfile = file[12:-4]
-	print file, outfile
+	print(file, outfile)
 	mat = np.loadtxt(file)
 	coords = mat[:,0:3]
 	vecs = mat[:,3:]

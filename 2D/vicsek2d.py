@@ -35,7 +35,7 @@ for i,theta in enumerate(thetas):
 # Currently run until time ends
 while t < T:
 
-	print t
+	print(t)
 	# save coordinates & corresponding thetas to text file
 	output = np.concatenate((particles,thetas),axis=1)
 	np.savetxt("%.2f.txt" % t, output)

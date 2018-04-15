@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # directory with scripts
-HOME=/Users/Lexi/Documents/Ohern_2016/vicsek_model/3D
+HOME=/Users/ryota_ishidu/workspace/vicsek_model/3D
 
 N=$1
 eta=$2
@@ -22,11 +22,11 @@ mkdir particles
 cd particles
 
 # # run vicsek simulation
-python $HOME/vicsek2d.py $N $eta $r 
+python ./vicsek2d.py $N $eta $r 
 
 # # make folder for plots
 cd ..
 mkdir plots
 
 # plot coordinates
-python $HOME/plot.py $eta
+python ./plot.py $eta

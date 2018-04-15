@@ -60,7 +60,7 @@ eta = float(sys.argv[1])
 
 
 for file in glob.glob("particles/*.txt"):
-	print file[10:]
+	print(file[10:])
 
 	# read in data
 	mat = np.loadtxt(file)

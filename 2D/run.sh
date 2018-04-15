@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # directory with scripts
-HOME=/Users/Lexi/Documents/Ohern_2016/vicsek_model/2D
+HOME=/Users/ryota_ishidu/workspace/vicsek_model/2D
 
 N=$1
 eta=$2
